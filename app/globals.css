@@ -5,9 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 :root {
@@ -186,9 +184,6 @@ body {
   text-shadow: 0 0 10px rgba(255, 242, 0, 0.533);
 }
 
-#CELLS {
-  /* background-color: #03023f; */
-}
 
 #eitcell {
   position: relative;
@@ -207,20 +202,6 @@ body {
     0 0 80px #03bcf4,
     0 0 160px #03bcf4;
 }
-
-
-/* Custom Neon Styles */
-/* .neon-purple {
-  box-shadow: 0 0 10px #8e44ad, 0 0 20px #8e44ad, 0 0 30px #8e44ad, 0 0 40px #8e44ad;
-}
-
-.neon-gold {
-  box-shadow: 0 0 10px #f1c40f, 0 0 20px #f1c40f, 0 0 30px #f1c40f, 0 0 40px #f1c40f;
-}
-
-.text-neon {
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
-} */
 
 
 /* Neon effects */
