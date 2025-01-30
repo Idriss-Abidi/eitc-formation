@@ -1,12 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 
 :root {
   /* font-family: "Inter", sans-serif; */
