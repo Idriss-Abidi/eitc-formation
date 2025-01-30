@@ -16,7 +16,7 @@ const Footer = () => (
       />
 
       {/* Footer Content */}
-      <p className="font-bold text-lg">
+      <p className="font-bold text-md">
         ENSIAS IT CLUB
         <br />
         Idriss EL ABIDI
