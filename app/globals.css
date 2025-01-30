@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+:root {
+  /* font-family: "Inter", sans-serif; */
+  font-family: 'K2D', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #03023f;
+  height: 100%;
+  margin: 0;
+  margin-top: 50px;
+  font-family: 'K2D', sans-serif;
+}
+
+#FirstDiv {
+  /* top: 243px; */
+}
+
+.cellsize {
+  width: 50px;
+  height: 50px;
+}
+
+#eitc {
+  position: relative;
+
+  Letter-spacing: 15px;
+  color: #0e3742;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+  line-height: 0.70em;
+  outline: none;
+  text-shadow: 0 0 10px #03bcf4,
+      0 0 20px #03bcf4,
+      0 0 40px #03bcf4,
+      0 0 80px #03bcf4,
+      0 0 160px #03bcf4;
+  /* animation: animate 5s linear infinite; */
+}
+
+#eitcn {
+  position: relative;
+
+  Letter-spacing: 5px;
+  color: #e5e7eb;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+  line-height: 0.70em;
+  outline: none;
+  text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+}
+
+#eitclogo {
+  position: relative;
+
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+
+
+@keyframes animate {
+
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #0e3742;
+    text-shadow: none;
+  }
+
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4,
+      0 0 20px #03bcf4,
+      0 0 40px #03bcf4,
+      0 0 80px #03bcf4,
+      0 0 160px #03bcf4;
+  }
+}
+
+.neon-image {
+  animation: neon-glow 3s ease-in-out infinite;
+}
+
+@keyframes neon-glow {
+  0%,
+  100% {
+    filter: drop-shadow(5px 0px 1px rgba(0, 255, 255, 0.7)) drop-shadow(5px 0 2px rgba(0, 255, 255, 0.7)) drop-shadow(5px 0 2px rgba(0, 255, 255, 0.7)) brightness(0.7);
+  }
+  50% {
+    filter: drop-shadow(10px 0 1px rgba(0, 255, 255, 1)) drop-shadow(0 0 5px rgba(0, 255, 255, 1)) drop-shadow(0 0 6px rgba(0, 255, 255, 1)) brightness(1.5);
+  }
+  0%, 100%, 50% {
+    transition: filter 0.5s ease-in-out;
+  }
+}
+
+.text-neon {
+  text-shadow: 0 0 10px #03bcf4;
+}
+
+.text-neon-purple {
+  text-shadow: 0 20px 20px #401567;
+}
+
+.text-extra-neon {
+  position: relative;
+
+  /* Letter-spacing:3px; */
+  color: #e5e7eb;
+  text-transform: uppercase;
+  /* width:100%; */
+  text-align: center;
+  -webkit-box-reflect: below 0.5px linear-gradient(transparent, #0008);
+  line-height: 0.50em;
+  outline: none;
+  text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+}
+
+.star-neon {
+  /* position: relative; */
+
+  /* Letter-spacing:3px; */
+  color: rgba(0, 255, 255, 1);
+  text-transform: uppercase;
+  /* width:100%; */
+  /* text-align: center; */
+  -webkit-box-reflect: below 0.5px linear-gradient(transparent, #0008);
+  line-height: 0.50em;
+  outline: none;
+  text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+}
+
+.us-neon {
+  text-shadow: 0 0 10px #5c578f;
+}
+
+.gold-neon {
+  text-shadow: 0 0 10px rgba(255, 242, 0, 0.533);
+}
+
+#CELLS {
+  /* background-color: #03023f; */
+}
+
+#eitcell {
+  position: relative;
+
+  Letter-spacing: 5px;
+  color: #e5e7eb;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+  line-height: 0.70em;
+  outline: none;
+  text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+}
+
+
+/* Custom Neon Styles */
+/* .neon-purple {
+  box-shadow: 0 0 10px #8e44ad, 0 0 20px #8e44ad, 0 0 30px #8e44ad, 0 0 40px #8e44ad;
+}
+
+.neon-gold {
+  box-shadow: 0 0 10px #f1c40f, 0 0 20px #f1c40f, 0 0 30px #f1c40f, 0 0 40px #f1c40f;
+}
+
+.text-neon {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
+} */
+
+
+/* Neon effects */
+.neon-border-purple {
+  border: 3px solid #23092e;
+  box-shadow: 0 0 10px #2268d1, 0 0 20px #2349d6;
+}
+
+.neon-border-gold {
+  border: 3px solid #f1c40f;
+  box-shadow: 0 0 10px #f1c40f, 0 0 20px #f1c40f;
+}
+
+/* Background with dark blue opacity */
+.bg-darkblue-opacity {
+  background-color: rgba(0, 0, 139, 0.3);
+  /* Dark blue with 30% opacity */
+}
+
+
+.tech {
+
+  font-family: "Share Tech", sans-serif;
+}
