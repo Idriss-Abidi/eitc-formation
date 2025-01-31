@@ -34,7 +34,7 @@ const Lectures = () => {
         className="text-center text-5xl font-bold text-white text-neon"
         style={{ fontFamily: '"Share Tech", sans-serif' }}
       >
-        LECTURES
+        SESSIONS
       </motion.h2>
       <p
         className="text-center text-[17px] font-bold text-neon p-1"
