@@ -40,7 +40,7 @@ const Lectures = () => {
         className="text-center text-[17px] font-bold text-neon p-1"
         style={{ fontFamily: '"Share Tech", sans-serif' }}
       >
-        Here you can explore the lectures from the EITC CP Cell session, where
+        Here you can explore the lectures from the EITC CP Cell sessions, where
         we’ve carefully curated the best and most widely used resources to
         enhance your competitive programming skills and knowledge.
       </p>
