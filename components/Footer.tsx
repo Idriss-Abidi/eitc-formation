@@ -10,13 +10,13 @@ const Footer = () => (
       <Image
         src="/images/eitcLogo.png"
         alt="App Logo"
-        width={100}
-        height={100}
+        width={50}
+        height={50}
         className="m-auto"
       />
 
       {/* Footer Content */}
-      <p className="font-bold text-md">
+      <p className="font-bold text-sm">
         ENSIAS IT CLUB
         <br />
         Idriss EL ABIDI
