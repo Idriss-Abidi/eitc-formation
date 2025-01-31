@@ -87,7 +87,7 @@ const Hero = () => {
             </motion.div>
           </div>
         </div>
-        <div className="w-1/4 mx-auto lg:w-1/2 lg:p-8">
+        <div className="w-1/3 mt-8 mx-auto lg:w-1/2 lg:p-8">
           <div className="flex justify-center ">
             <motion.div
               variants={container2(1.2)}
