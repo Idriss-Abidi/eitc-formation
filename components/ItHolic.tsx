@@ -23,7 +23,7 @@ const ItHolic = () => {
   }, []);
 
   return (
-    <div id="ITHOLIC" className="border-b border-neutral-900 pb-4 m-0 mt-16">
+    <div id="ITHOLIC" className=" pb-4 m-0 mt-16">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ y: -50, opacity: 0 }}
