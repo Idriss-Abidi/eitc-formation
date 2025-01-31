@@ -9,7 +9,7 @@ import itl1 from "../assets/itholic/ITHolic1.png";
 import itl2 from "../assets/itholic/ITHolic2.png";
 import itl3 from "../assets/itholic/ITHolic3.png";
 
-import it31 from "../assets/itholic/itholic3.jpg";
+import it31 from "../assets/itholic/devjam.jpg";
 import it32 from "../assets/itholic/ClosingCeremony.png";
 import it33 from "../assets/itholic/itholic_cp.png";
 
