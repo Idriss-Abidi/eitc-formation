@@ -49,38 +49,38 @@ const Hero = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center">
-            <motion.h1
+            <h1
               initial="hidden"
               id="eitc"
               animate="visible"
               className="my-20 lg:pr-1/4 text-7xl lg:text-9xl"
             >
               EITC
-            </motion.h1>
-            <motion.span
+            </h1>
+            <span
               initial="hidden"
               id="eitcn"
               animate="visible"
               className="my-1 lg:pr-1/4 text-2xl lg:text-3xl"
             >
               ENSIAS IT CLUB
-            </motion.span>
-            <motion.div
+            </span>
+            <div
               initial="hidden"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
               <div className="flex items-center">
-                <motion.h3
+                <h3
                   initial="initial"
                   animate="animate"
                   id="eitcn"
                   className="center font-bold text-md md:text-xl md:font-large"
                 >
                   Where IT minds get creative
-                </motion.h3>
+                </h3>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
         <div className="w-1/2 mt-8 mx-auto lg:w-1/2 lg:p-8">
