@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => (
   <div className="flex flex-col">
     {/* Footer */}
-    <footer className="bg-[rgb(11, 30, 55)] text-white text-center p-2 mt-auto">
+    <footer className="bg-[#0b1e37] text-white text-center p-2 mt-auto">
       {/* <aside> */}
       {/* Logo */}
       <Image
