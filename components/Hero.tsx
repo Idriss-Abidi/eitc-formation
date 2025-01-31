@@ -52,7 +52,7 @@ const Hero = () => {
             <motion.h1
               initial={{ opacity: 0 }} // Start with opacity 0
               animate={{ opacity: 1 }} // Animate to opacity 1
-              transition={{ duration: 1 }} // Duration of 1 second
+              transition={{ duration: 2 }} // Duration of 1 second
               // variants={container1(0)}
               // initial="hidden"
               id="eitc"
@@ -64,7 +64,7 @@ const Hero = () => {
             <motion.span
               initial={{ opacity: 0 }} // Start with opacity 0
               animate={{ opacity: 1 }} // Animate to opacity 1
-              transition={{ duration: 1.5 }} // Duration of 1 second
+              transition={{ duration: 2 }} // Duration of 1 second
               // variants={container1(0.5)}
               // initial="hidden"
               id="eitcn"
