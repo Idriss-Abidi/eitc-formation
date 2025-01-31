@@ -119,6 +119,7 @@ body {
 
 .neon-image {
   animation: neon-glow 3s ease-in-out infinite;
+  
 }
 
 @keyframes neon-glow {
@@ -128,9 +129,6 @@ body {
   }
   50% {
     filter: drop-shadow(10px 0 1px rgba(0, 255, 255, 1)) drop-shadow(0 0 5px rgba(0, 255, 255, 1)) drop-shadow(0 0 6px rgba(0, 255, 255, 1)) brightness(1.5);
-  }
-  0%, 100%, 50% {
-    transition: filter 0.5s ease-in-out;
   }
 }
 
