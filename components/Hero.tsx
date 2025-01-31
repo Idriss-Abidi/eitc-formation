@@ -50,34 +50,46 @@ const Hero = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center">
             <motion.h1
-{/*               variants={container1(0)} */}
-              initial="hidden"
+              initial={{ opacity: 0 }} // Start with opacity 0
+              animate={{ opacity: 1 }} // Animate to opacity 1
+              transition={{ duration: 1 }} // Duration of 1 second
+              // variants={container1(0)}
+              // initial="hidden"
               id="eitc"
-              animate="visible"
+              // animate="visible"
               className="my-20 lg:pr-1/4 text-7xl lg:text-9xl"
             >
               EITC
             </motion.h1>
             <motion.span
-{/*               variants={container1(0.5)} */}
-              initial="hidden"
+              initial={{ opacity: 0 }} // Start with opacity 0
+              animate={{ opacity: 1 }} // Animate to opacity 1
+              transition={{ duration: 1 }} // Duration of 1 second
+              // variants={container1(0.5)}
+              // initial="hidden"
               id="eitcn"
-              animate="visible"
+              // animate="visible"
               className="my-1 lg:pr-1/4 text-2xl lg:text-3xl"
             >
               ENSIAS IT CLUB
             </motion.span>
             <motion.div
-{/*               variants={container1(1)} */}
-              initial="hidden"
-              animate="visible"
+              initial={{ opacity: 0 }} // Start with opacity 0
+              animate={{ opacity: 1 }} // Animate to opacity 1
+              transition={{ duration: 1 }} // Duration of 1 second
+              // variants={container1(1)}
+              // initial="hidden"
+              // animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
               <div className="flex items-center">
                 <motion.h3
-{/*                   variants={textVariants} */}
-                  initial="initial"
-                  animate="animate"
+                  initial={{ opacity: 0 }} // Start with opacity 0
+                  animate={{ opacity: 1 }} // Animate to opacity 1
+                  transition={{ duration: 1 }} // Duration of 1 second
+                  // variants={textVariants}
+                  // initial="initial"
+                  // animate="animate"
                   id="eitcn"
                   className="center font-bold text-md md:text-xl md:font-large"
                 >
