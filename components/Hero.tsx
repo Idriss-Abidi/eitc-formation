@@ -57,7 +57,9 @@ const Hero = () => {
               // initial="hidden"
               id="eitc"
               // animate="visible"
+              //className="my-20 lg:pr-1/4 text-7xl lg:text-9xl"
               className="my-20 lg:pr-1/4 text-7xl lg:text-9xl"
+
             >
               EITC
             </motion.h1>
@@ -69,7 +71,8 @@ const Hero = () => {
               // initial="hidden"
               id="eitcn"
               // animate="visible"
-              className="my-1 lg:pr-1/4 text-2xl lg:text-3xl"
+              //className="my-1 lg:pr-1/4 text-2xl lg:text-3xl"
+              className="my-1 lg:pr-1/4 text-2xl lg:text-4xl"
             >
               ENSIAS IT CLUB
             </motion.span>
@@ -91,7 +94,8 @@ const Hero = () => {
                   // initial="initial"
                   // animate="animate"
                   id="eitcn"
-                  className="center font-bold text-md md:text-xl md:font-large"
+                  //className="center font-bold text-md md:text-xl md:font-large"
+                  className="center  text-md md:text-2xl"
                 >
                   Where IT minds get creative
                 </motion.h3>
