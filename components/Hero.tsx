@@ -64,7 +64,7 @@ const Hero = () => {
             <motion.span
               initial={{ opacity: 0 }} // Start with opacity 0
               animate={{ opacity: 1 }} // Animate to opacity 1
-              transition={{ duration: 1 }} // Duration of 1 second
+              transition={{ duration: 1.5 }} // Duration of 1 second
               // variants={container1(0.5)}
               // initial="hidden"
               id="eitcn"
@@ -76,7 +76,7 @@ const Hero = () => {
             <motion.div
               initial={{ opacity: 0 }} // Start with opacity 0
               animate={{ opacity: 1 }} // Animate to opacity 1
-              transition={{ duration: 1 }} // Duration of 1 second
+              transition={{ duration: 2 }} // Duration of 1 second
               // variants={container1(1)}
               // initial="hidden"
               // animate="visible"
@@ -86,7 +86,7 @@ const Hero = () => {
                 <motion.h3
                   initial={{ opacity: 0 }} // Start with opacity 0
                   animate={{ opacity: 1 }} // Animate to opacity 1
-                  transition={{ duration: 1 }} // Duration of 1 second
+                  transition={{ duration: 2 }} // Duration of 1 second
                   // variants={textVariants}
                   // initial="initial"
                   // animate="animate"
