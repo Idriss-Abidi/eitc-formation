@@ -50,7 +50,7 @@ const Hero = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center">
             <motion.h1
-              variants={container1(0)}
+{/*               variants={container1(0)} */}
               initial="hidden"
               id="eitc"
               animate="visible"
@@ -59,7 +59,7 @@ const Hero = () => {
               EITC
             </motion.h1>
             <motion.span
-              variants={container1(0.5)}
+{/*               variants={container1(0.5)} */}
               initial="hidden"
               id="eitcn"
               animate="visible"
@@ -68,14 +68,14 @@ const Hero = () => {
               ENSIAS IT CLUB
             </motion.span>
             <motion.div
-              variants={container1(1)}
+{/*               variants={container1(1)} */}
               initial="hidden"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
               <div className="flex items-center">
                 <motion.h3
-                  variants={textVariants}
+{/*                   variants={textVariants} */}
                   initial="initial"
                   animate="animate"
                   id="eitcn"
