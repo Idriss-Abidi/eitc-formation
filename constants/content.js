@@ -46,7 +46,7 @@ export const blogPosts = [
       name: "CP Cell",
       avatar: "/images/cp2.png",
     },
-    title: "Complete search",
+    title: "Key Search Techniques",
     pdf: "/pdfs/cp4_CompleteSearch.pdf",
     image: "/covers/cp4.png",
   },
