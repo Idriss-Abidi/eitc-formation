@@ -50,4 +50,14 @@ export const blogPosts = [
     pdf: "/pdfs/cp4_CompleteSearch.pdf",
     image: "/covers/cp4.png",
   },
+  {
+    date: "February, 2025",
+    author: {
+      name: "CP Cell",
+      avatar: "/images/cp2.png",
+    },
+    title: "Bitwise Operators",
+    pdf: "/pdfs/cp5_BitwiseOperators.pdf",
+    image: "/covers/cp5.png",
+  },
 ];
