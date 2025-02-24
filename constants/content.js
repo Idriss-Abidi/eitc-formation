@@ -65,7 +65,7 @@ export const blogPosts = [
       name: "CP Cell",
       avatar: "/images/cp2.png",
     },
-    title: "Bitwise Operators",
+    title: "Dynamic Programming",
     pdf: "/pdfs/cp6_DP.pdf",
     image: "/covers/cp6.png",
   },
