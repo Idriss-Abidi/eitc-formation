@@ -44,7 +44,8 @@ const Lectures = () => {
         we’ve carefully curated the best and most widely used resources to
         enhance your competitive programming skills and knowledge.
       </p>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 mt-4" style={{min-height: 500px}}>
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 mt-4 min-h-[500px]">
+
         {currentPosts.map((post, index) => (
           <article
             key={index}
