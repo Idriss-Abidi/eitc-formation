@@ -1,1 +1,1 @@
-[Click here to view the website](https://https://eitc-formation.vercel.app)
+[Click here to view the website](https://eitc-formation.vercel.app)
